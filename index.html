@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1", charset="utf-8">
+<link rel="stylesheet" href="Bootstrap/css/Css.css">
+<script src="Bootstrap/js/Java.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<style>
+    body, html {
+    height: 100%;
+   
+}
+  header{
+  height: 60px;
+ }
+   .edu{
+    float: left;
+    padding-left: 10px;
+       }
+ .nation{
+  text-align: center;
+  margin: 10px;
+ background-color: rgb(43, 226, 76);
+ height: 65px;
+ padding: 10px 0px 10px 10px;
+ color: #d658b9;
+ text-shadow: 2px 2px #5D3754;
+ }
+  .wfp{
+   padding-top: 0%;
+    float: right;
+    padding-right: 10px;
+  } 
+  .navbar{
+    padding-top: 0px;
+   margin-top: 0px;
+   margin-left: 10px;
+   margin-right: 10px;
+   height: 50px;
+  }  
+  .nav-item{
+    margin-left: 10px;   
+  }
+  .nav-link{
+    color: navy;
+   font-weight: bold;
+   overflow: rgb(133, 191, 9);
+   float: right;
+   padding-right: 20px;
+   
+  }
+  #navbarNav{
+  backdrop-filter: blur(300px);
+}  
+
+footer{
+  margin: 0px 10px;
+  text-align: center;
+}
+.main {
+    position: relative;
+    height: 80%;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    z-index: -1;
+}
+.video-bg iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    border: 1 solid red;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+.video{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    padding-left: 0px;
+   }
+   .video-bg video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            padding: 0px 10px;
+        }
+.head-content { 
+       
+        backdrop-filter: blur(200px) ;
+        width: 40%;
+        height: 70%;
+        text-align: center;
+        padding: 5px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 30px; 
+        object-fit: cover;     
+}
+.main h1 {
+    font-size: 2.5rem;
+    margin: 30px;      
+}
+.main h2 {
+    font-size: 1.5rem;
+    margin: 50px;      
+}
+@media screen and (max-width: 768px) {
+    
+    .main h1 {
+    font-size: 2rem;
+    margin: 10px;      
+}
+.main h2 {
+    font-size: 1.5rem;
+    margin: 10px;   
+}
+.head-content{width: 80%;
+  height: 40%;
+  transform: translate(-50%, -50%);
+  }
+  .video-bg {      
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    z-index: -1;
+}
+.video-bg iframe {   
+   
+    width: 100%o;
+    height: 100%;
+    border: 0;
+    object-fit: cover;
+    margin-bottom: 50px;
+    
+}
+.video{    
+    flex-wrap: wrap;
+    gap: 0px;
+    padding: 5px;
+   }
+   .navbar{
+    top: 0;
+    height: 150px;
+   }
+}
+@media screen and (max-width: 480px) {
+    .fluid {
+      width: auto;
+      height: auto;
+    }
+    .main h1 {
+    font-size: 2rem;
+    margin: 10px;      
+}
+.main h2 {
+    font-size: 1.5rem;
+    margin: 10px;   
+}
+.head-content{width: 80%;
+  height: 40%;
+  transform: translate(-50%, -50%);
+}
+.video-bg {  
+    
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    z-index: -1;
+}
+.video-bg iframe {   
+   
+    width: 100%o;
+    height: 100%;
+    border: 0;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+.video{    
+    flex-wrap: wrap;
+    gap: 0px;
+    padding: 5px;
+  
+   }
+   .navbar{
+    top: 0;
+    height: 150px;
+   }
+}
+</style>
+
+</head>
+<body class="fluid ">
+ <header>
+  <img src="image/edulogo copy.png" alt="" width="70px" height="60px" class="edu" >
+  <img src="image/edulogo copy.png" alt="" width="70px" height="60px" class="wfp">
+  <h2 class="nation">National ICT Awrads-2024</h2>  
+     </header>  
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(89, 236, 82);"> 
+        <span class="navbar-brand" style="font-size: 23px; color: navy;padding-left: 20px;font-weight: 800;">Grade-8</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+  <span class="navbar-toggler-icon"></span></button> 
+  <div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav">
+    <li class="nav-item"><a href="index.html" class="nav-link">ပင်မစာမျက်နှာ</a></li>
+    <li class="nav-item"><a href="lesson.html" class="nav-link">သင်ခန်းစာ</a></li>
+     <li class="nav-item"><a href="content.html" class="nav-link">Contact</a></li>
+  </ul>
+  </div>
+  </nav>      
+  <main class="main">
+    <div class="video-bg scsm w-100"> 
+      <video autoplay muted loop>
+          <source src="video/fruit-.webm" type="video/mp4">        
+      </video>
+    </div>
+    <div class="head-content" style="color: rgb(17, 1, 14);">
+      <h1>Grade-8</h1>
+      <h2>အခန်း (၄)</h2>
+      <h2>စားသုံးသူနှင့်ဆိုင်သော အသိပညာ</h2>
+    </div>  
+    </main>
+
+    <footer class="footer">
+     <div class="icon">
+    <i class="bi bi-youtube" ></i>
+    <i class="bi bi-google"></i>
+    <i class="bi bi-twitter"></i>
+    <i class="bi bi-camera-video"></i>
+  </div>  
+    <div class="text-center p-3 g8" style="background-color: rgb(204, 198, 198);">
+        © 2024 Copyright: Grade-8
+    </div>
+    </footer>
+
+</body>
+<script>
+   
+</script>
+     </html>
